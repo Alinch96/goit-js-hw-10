@@ -1,0 +1,59 @@
+.snackbar-container {
+  padding: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 360px;
+}
+.form input {
+  width: 100%;
+}
+.form > label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form fieldset {
+  display: flex;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  gap: 48px;
+  justify-content: center;
+  padding: 24px 28px 16px;
+}
+
+.form fieldset:hover,
+.form fieldset:focus {
+  border: 1px solid #000000;
+}
+.form fieldset label {
+  display: flex;
+}
+.form input[type='radio'] {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.form button {
+  width: 100%;
+}
+
+.iziToast {
+  border-radius: 4px !important;
+  font-family: var(--font-family) !important;
+}
+.iziToast > .iziToast-body .iziToast-message,
+.iziToast > .iziToast-body .iziToast-title {
+  color: #fff !important;
+
+  font-size: 16px !important;
+  line-height: 1.5 !important;
+  letter-spacing: 0.03em !important;
+}
+.iziToast > .iziToast-body .iziToast-title {
+  font-weight: 700 !important;
+}
